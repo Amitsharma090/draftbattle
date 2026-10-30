@@ -14,5 +14,5 @@ Then in the repo: Settings > Pages > Source: "Deploy from a branch" > `main` / r
 Your game will be at https://<your-username>.github.io/draft-battle/
 
 ## Note
-"Play vs computer" works anywhere. "Play with friends" uses the claude.ai artifact
-room feature, so it only works on the claude.ai page, not on GitHub Pages.
+"Play vs computer" works anywhere. "Play with friends" uses PeerJS (direct browser-to-browser)
+on any website, or claude.ai rooms when opened on claude.ai.
