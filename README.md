@@ -1,18 +1,9 @@
 # Draft Battle
 
-Bid on Pokémon cards, build a team of 5, and fight. Single-file game: `index.html`.
+Bid on Pokemon cards, build a team of 5, set your battle order in secret, and fight. Single-file game: `index.html` (all sprites are embedded).
 
 ## Host on GitHub Pages
-```
-git init -b main
-git add .
-git commit -m "Draft Battle"
-git remote add origin https://github.com/<your-username>/draft-battle.git
-git push -u origin main
-```
-Then in the repo: Settings > Pages > Source: "Deploy from a branch" > `main` / root.
-Your game will be at https://<your-username>.github.io/draft-battle/
+Commit `index.html`, then Settings > Pages > Deploy from branch `main` / root.
 
-## Note
-"Play vs computer" works anywhere. "Play with friends" uses PeerJS (direct browser-to-browser)
-on any website, or claude.ai rooms when opened on claude.ai.
+## Modes
+"Play vs computer" works anywhere. "Play with friends" uses PeerJS (direct browser-to-browser).
